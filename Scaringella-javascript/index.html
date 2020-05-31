@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Quizz Espace 2000</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1>Bienvunue sur le meilleur quizz sur l'Espace connu!</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+<p class = "questions">Qu'appelle-t-on "Voie lactée" ?</p>
+
+<input type = "radio" id = "mc" name = "question1" value = "Notre galaxie"> Notre galaxie<br>
+<input type = "radio" id = "mc" name = "question1" value = "Le lactose contenu dans le lait"> Le lactose contenu dans le lait<br>
+<input type = "radio" id = "mc" name = "question1" value = "Une étoile"> Une étoile<br>
+<input type = "radio" id = "mc" name = "question1" value = "un satellite "> un satellite<br>
+
+<p class = "questions">L'Année-Lumière sert à mesurer?</p>
+
+<input type = "radio" id = "mc" name = "question2" value = "La distance"> La distance<br>
+<input type = "radio" id = "mc" name = "question2" value = "La vitesse"> La vitesse<br>
+<input type = "radio" id = "mc" name = "question2" value = "La lumière"> La lumière<br>
+<input type = "radio" id = "mc" name = "question2" value = "Le temps"> Le temps<br>
+
+<p class = "questions">Quel véhicule l'homme emploie-t-il pour aller dans l'espace ?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Un avions"> Un avion<br>
+<input type = "radio" id = "mc" name = "question3" value = "capsule éjectable"> capsule éjectable<br>
+<input type = "radio" id = "mc" name = "question3" value = "Une mongolfière"> Une mongolfière<br>
+<input type = "radio" id = "mc" name = "question3" value = "Une navette spatiale"> Une navette spatiale<br>
+
+<p class = "questions">Qu'appelle-t-on "l'étoile du berger ?</p>
+
+<input type = "radio" id = "mc" name = "question4" value = "La Lune"> La Lune<br>
+<input type = "radio" id = "mc" name = "question4" value = "Vénus"> Vénus<br>
+<input type = "radio" id = "mc" name = "question4" value = "Le Soleil"> Le Soleil<br>
+<input type = "radio" id = "mc" name = "question4" value = "Un collectif de Berger"> Un collectif de Berger<br>
+
+<p class = "questions">Quelle est la vitesse de la lumière ?</p>
+
+<input type = "radio" id = "mc" name = "question5" value = "Le temps d'allumer une ampoule"> Le temps d'allumer une ampoule<br>
+<input type = "radio" id = "mc" name = "question5" value = "Environ 300 000 kilomètres par seconde"> Environ 300 000 kilomètres par seconde<br>
+<input type = "radio" id = "mc" name = "question5" value = "Environ 300 kilomètres par seconde"> Environ 300 kilomètres par seconde<br>
+<input type = "radio" id = "mc" name = "question5" value = "Sa vitesse est infinie"> Sa vitesse est infinie<br>
+
+<p class = "questions">Pourquoi les astronautes doivent faire du sport dans l'espace ?</p>
+
+<input type = "radio" id = "mc" name = "question6" value = "Pour ne pas grossir"> Pour ne pas grossir<br>
+<input type = "radio" id = "mc" name = "question6" value = "Pour que les muscles ne soient pas flasques quand ils reviennent sur Terre"> Pour que les muscles ne soient pas flasques quand ils reviennent sur Terre<br>
+<input type = "radio" id = "mc" name = "question6" value = "Pour s'occuper"> Pour s'occuper<br>
+<input type = "radio" id = "mc" name = "question6" value = "Parce que les objets sont plus lourds dans l'espace"> Parce que les objets sont plus lourds dans l'espace<br>
+
+<p class = "questions">Pourquoi les astronautes reviennent-ils plus grand de l'espace ?</p>
+
+<input type = "radio" id = "mc" name = "question7" value = "Parce qu'ils ont mangés de la soupe"> Parce qu'ils ont mangés de la soupe<br>
+<input type = "radio" id = "mc" name = "question7" value = "à cause de la pression de l'air"> à cause de la pression de l'air<br>
+<input type = "radio" id = "mc" name = "question7" value = "Parce qu'ils font du sport"> Parce qu'ils font du sport<br>
+<input type = "radio" id = "mc" name = "question7" value = "La colonne vertébrale se détend"> La colonne vertébrale se détend<br>
+
+<p class = "questions">Les astronautes grandissent de... dans l'espace ?</p>
+
+<input type = "radio" id = "mc" name = "question8" value = "40cm"> 40cm<br>
+<input type = "radio" id = "mc" name = "question8" value = "4m"> 4m<br>
+<input type = "radio" id = "mc" name = "question8" value = "4cm"> 4cm<br>
+<input type = "radio" id = "mc" name = "question8" value = "4mm"> 4mm<br>
+
+<input id = "button" type = "button" value = "J'ai fini!" onclick = "verification();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
+
+
+
